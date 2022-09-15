@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     env: 
       IMAGE_NAME: base_infra:latest
-      PROJECT_KEY: githubactions
+      PROJECT_KEY: dsl
       CLI_VERSION: latest
     steps:
     - name: Checkout
